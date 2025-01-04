@@ -100,6 +100,12 @@ Before proceeding, ensure the following tools are installed on your system:
 Run tests using the following command:
 ```bash
 npm test
+npx jest __tests__/simple.test.js
+
+TO RUN db.test.js the below code is used:
+npx jest __tests__/config/db.test.js
+
+SYNTAX : npx jest <FOLDER_NAME>/<SUBFOLDER_NAME>/<FILENAME.test.js>
 ```
 
 ## Common Issues and Fixes
